@@ -1,0 +1,269 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Rau Sạch</title>
+<link href="../css/home.css" rel="stylesheet" type="text/css">
+<link  href="../lib/css/bootstrap.css" >
+</head>
+<body>
+
+	<div id="outer">
+<header>
+		 <a href="home.html"> <img src="../image/rausach_logo.png"  width="10%" ></a>
+			<div id="div1">
+				<img src="../image/phone_hotline.png" width="40px">
+				<div >
+				<p>01234567689</p>
+				<p>7:00-19:00</p>
+				</div>
+			</div>
+			<div id="div2">
+				<a href="#"><img src="../image/giohang.png" width="40px"></a>
+			</div>
+  <form>
+				<input type="search" placeholder="Tìm sản phẩm">
+		    	<span id="seach"><a href="#"><img src="../image/search-icon.png" width="20px"></a></span>
+			</form>
+			
+			
+		
+		</header>
+		
+	<nav>
+    <div id="menu">
+    <ul class="menu" >
+    	<li><strong><a href="home.html">TRANG CHỦ</a></strong></li>
+    	<li><strong><a href="gioithieu.html">GIỚI THIỆU</a></strong></li>
+    	<li><strong><a href="raucuqua.html">RAU CỦ QUẢ TƯƠI</a></strong>
+        	 <ul class="sub-menu">
+            	<li><a href="raula.html">RAU ĂN LÁ</a></li>
+                <li><a href="raucu.html">RAU ĂN THÂN CỦ QUẢ</a></li>
+                
+            </ul>
+            </li>
+    	<li><strong><a href="traicay.html">TRÁI CÂY</a></strong></li>
+   		
+   	</ul> 	
+    </div>
+    
+    </nav>
+		
+<section>
+	<div class="w3-content w3-display-container">
+  <img class="mySlides" src="../image/block_1.png" style="width:100%">
+  <img class="mySlides" src="../image/block_3.png" style="width:100%">
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+
+}
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); 
+}
+</script>
+</div>
+
+
+			<!----Phần rau củ quả tươi---->
+		<div id="rau">
+	
+			<div class="block1">
+			<a href="raucuqua.html"><h1>RAU CỦ QUẢ TƯƠI</h1></a>
+			<br>
+			<a href="raula.html" class="danhmuc">Rau ăn lá</a>
+			 <br>
+	 		 <br>
+	 	 	 <hr>
+	 		 <br>
+			<a href="raucu.html" class="danhmuc">Rau ăn thân, củ, quả</a>
+			 <br>
+	 		 <br>
+			 <hr>
+	 		 <br>
+			</div>	
+			<div class="block2">
+		    <img src="../image/block_1.png" width="100%" height="352"/> 
+		    </div>
+		
+		<div class="block3">
+			<div class="rau">
+			<a href="daubap.html"><img src="../image/rauan,than,cu,qua/daubap.jpg" height="222px" width="222px" class="zoom"></a>
+			<p class="ten"><a href="daubap.html">Đậu bắp</a></p>
+			
+			<p><strong>35.000đ</strong></p>
+			<br>
+			<p class="muahang"><a href="daubap.html">Mua Hàng</a></p>
+			</div>
+			<!---------------->
+			<div class="rau">
+			<a href="suplo.html"><img src="../image/rauan,than,cu,qua/suplo.jpg" width="222px" height="222px" class="zoom" ></a>
+			<p class="ten"><a href="suplo.html">Súp lơ</a></p>
+			
+			<p><strong>35.000đ</strong></p>
+			<br>
+			<p class="muahang"><a href="suplo.html">Mua Hàng</a></p>
+			</div>
+			<!---------------->
+			<div class="rau">
+			<a href="raulang.html"><img src="../image/rauanla/raulang.jpg" width="222px" height="222px" class="zoom" ></a>
+			<p class="ten"><a href="raulang.html">Rau lang</a></p>
+			
+			<p><strong>35.000đ</strong></p>
+			<br>
+			<p class="muahang"><a href="raulang.html">Mua Hàng</a></p>
+			</div>
+			<!---------------->
+			<div class="rau">
+			<a href="mongtoi.html"><img src="../image/rauanla/mongtoi.jpg" width="222px" height="222px" class="zoom"></a>
+			<p class="ten"><a href="mongtoi.html">Mồng tơi</a></p>
+			
+			<p><strong>35.000đ</strong></p>
+			<br>
+			<p class="muahang"><a href="mongtoi.html">Mua Hàng</a></p>
+			</div>
+		</div>
+		</div>
+			<!----Phần trái cây---->
+			&nbsp;
+			
+		<br> <hr> <br>
+		<div id="traicay">
+	
+			<div class="block1">
+			<a href="traicay.html"><h1>TRÁI CÂY</h1></a>
+			</div>	
+			<div class="block2">
+			 <img src="../image/block_3.png" width="100%" height="352"/> 
+		    </div>
+		
+		<div class="block3">
+			<div class="traicay">
+			<a href="chuoi.html"><img src="../image/traicay/chuoi.jpg" width="222px" height="222px" class="zoom"></a>
+			<p class="ten"><a href="chuoi.html">Chuối</a></p>
+			
+			<p><strong>35.000đ</strong></p>
+			<br>
+			<p class="muahang"><a href="chuoi.html">Mua Hàng</a></p>
+			</div>
+			<!---------------->
+			<div class="traicay">
+			<a href="sori.html"><img src="../image/traicay/sori.jpg" width="222px" height="222px" class="zoom"></a>
+			<p class="ten"><a href="sori.html">Sơ ri</a></p>
+		
+			<p><strong>35.000đ</strong></p>
+			<br>
+			<p class="muahang"><a href="sori.html">Mua Hàng</a></p>
+			</div>
+			<!---------------->
+			<div class="traicay">
+			<a href="cam.html"><img src="../image/traicay/cam.jpg" width="222px" height="222px" class="zoom"></a>
+			<p class="ten"><a href="cam.html">Cam</a></p>
+		
+			<p><strong>35.000đ</strong></p>
+			<br>
+			<p class="muahang"><a href="cam.html">Mua Hàng</a></p>
+			</div>
+			<!---------------->
+			<div class="traicay">
+			<a href="nho.html"><img src="../image/traicay/nho.jpg" width="222px" height="222px" class="zoom"></a>
+			<p class="ten"><a href="nho.html">Nho</a></p>
+			
+			<p><strong>35.000đ</strong></p>
+			<br>
+			<p class="muahang"><a href="nho.html">Mua Hàng</a></p>
+			</div>
+			
+		</div>
+		</div>
+		
+		</section>
+	
+		<!----footer--->
+	  <footer>
+		&nbsp;
+		<br><br><br>
+		<hr>
+		<br>
+		<div id="gioithieu">
+		  <h3 >VỀ CHÚNG TÔI:</h3>
+			<br>
+		  <div class="div">
+			<div class="img">
+				<img src="../image/name.png" width="40px" >
+				</div>
+			<div class="text">
+				<p >
+				Nguyễn Lương Huy-16047591<br>Nguyễn Thái Sơn-16045151
+				</p>
+				</div>
+			</div>
+			
+			<div>
+			  <div class="img">
+				        <img src="../image/phone.png" width="40px" > 
+			     
+			  </div>
+			  <div class="text">
+				<p >
+					01683393232<br>
+					01653937889
+				</p>
+			  </div>	
+		  </div>
+			<div>
+			  <div class="img">
+					<img src="../image/map.png" width="40px">
+				</div>
+			  <div class="text">
+					<p >
+						12 Nguyễn Văn Bảo, Phường 4<br> Quận Gò Vấp, TP.HCM
+					</p>
+				</div>
+			</div>
+			<div>
+				<div class="img">
+					<img src="../image/email.png" width="40px">
+				</div>
+				<div class="text">
+					<p >
+						luonghuy0406@gmail.com<br>thaison0698@gmail.com
+					</p>
+				</div>
+				&nbsp;
+				<br><br><br><br><br>
+				<a href="#outer"><div id="lendau">Lên đầu trang</div></a>
+		  </div>
+			</div>
+			
+			&nbsp;
+			<br><br><br>
+	  </footer>
+	</div>
+</body>
+</html>
